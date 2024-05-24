@@ -1,0 +1,100 @@
+body{
+   background-color: rgb(255, 255, 255);
+
+}
+
+label{
+    display: block;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   font-size:80px;
+   margin-left: 85px;
+   margin-top: 55px;
+}
+
+.container h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #020202;
+    font-size: 100px;
+}
+
+.container{
+   height: 3500px;
+   border-radius: 10px;
+   width: 3500px;
+   background-color: #dbdbdb;
+   margin-left: 1250px;
+}
+
+form input{
+   background-color: #ffffff;
+    font-size: 90px;
+    width: 940px;
+    padding: 35px;
+    margin-left:200px;
+    margin-top: 55px;
+}
+
+form input:hover{
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+form textarea{
+    width: 940px;
+    padding: 35px;
+    background-color: #ffffff;
+    font-size: 30px;
+    margin-left:200px;
+    margin-top: 55px;
+}
+
+form textarea:hover{
+    border: 1px solid  rgb(255, 255, 255) ;
+}
+form{
+    margin-left: 35px;
+}
+
+form [type="submit"]{
+    background-color: #727271;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: block;
+    margin-top: 200px;
+    margin-left: 750px;
+    border: 1px solid #727271;
+}
+/*Select*/
+.select {
+    display: flex;
+    font-size: 80px;
+}
+
+.horsee{
+    margin-left: 200px;
+    margin-top: 205px;
+}
+
+.fa-horse{
+    gap: 100px;
+    margin-left: 150px;
+}
+
+#ak{
+    margin-left:100px;
+}
+
+#cr{
+    margin-left: 65px;
+}
+
+.block{
+    display: block;
+    margin-top: 25px;
+}
+
+.horsee a{
+    text-decoration: none;
+}
