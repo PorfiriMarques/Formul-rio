@@ -1,0 +1,110 @@
+.container{
+background-color: rgb(222, 220, 220);
+width:400px;
+padding: 25px;
+margin-left: 800px;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+h1{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+}
+
+input{
+    border: 2px solid rgb(222, 220, 220);
+    border-radius: 2px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+select,option{
+    font-size: 15px;
+    border: 2px solid rgb(222, 220, 220);
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.submitt{
+display: block;
+}
+
+@media screen and (max-width:1280px){
+    .container{
+        background-color: rgb(222, 220, 220);
+        width:800px;
+        padding: 55px;
+        margin-left:10px;
+        margin-top: 15px;
+        height: 1200px;
+    }
+
+    input{
+        font-size: 58px;
+        margin-top: 45px;
+    }
+
+    label{
+        font-size: 45px;
+        margin-top: 45px;
+    }
+
+    select{
+        font-size:58px ;
+    }
+
+    h1{
+        font-size: 85px;
+    }
+}
+
+@media screen and (max-width:853px) {
+    .container{
+        background-color: antiquewhite;
+        margin-left: -10px;
+        margin-top: -10px;
+        height: 1900px;
+    }
+
+    label{
+        font-size: 55px;
+        margin-top: 68px;
+    }
+
+    input{
+        margin-top: 68px;
+    }
+
+    select{
+        margin-top: 68px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .container{
+        height: 1200px;
+        margin-top: -77px;
+        padding: 107px;
+        text-align: center;
+        margin-left: -5px;
+    }
+
+    body{
+        background-color: rgb(222, 220, 220);
+    }
+}
+
+@media screen and (min-widht:1024px) {
+   body{
+    background-color: antiquewhite;
+   }
+}
+
